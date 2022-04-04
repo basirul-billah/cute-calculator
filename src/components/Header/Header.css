@@ -1,0 +1,12 @@
+.header-headline {
+    background-color: #005C53;
+}
+nav {
+    background-color: #9FC131;
+}
+.nav-links:hover {
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    margin-top: 5px;
+}
