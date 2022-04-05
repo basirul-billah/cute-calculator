@@ -12,8 +12,8 @@ const Home = () => {
             {/* banner section */}
             <div className='flex justify-evenly'>
                 <div className='p-10 text-left'>
-                    <h1 className='text-3xl font-bold my-5'>HXP-2000</h1>
-                    <p className='text-lg'>Made for the professionals with an eye for all the cute things in the world!</p>
+                    <h1 className='text-5xl font-bold my-5 text-purple-800'>HXP-2000</h1>
+                    <p className='text-xl text-slate-800'>Made for the professionals with an eye for all the cute things in the world!</p>
                     <ul className='ml-7 list-disc'>
                         <li>Large display</li>
                         <li>Function command signs</li>
