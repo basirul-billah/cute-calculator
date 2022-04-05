@@ -12,8 +12,12 @@ const Home = () => {
             {/* banner section */}
             <div className='flex justify-evenly'>
                 <div className='p-10 text-left'>
-                    <h1 className='text-5xl font-bold my-5 text-purple-800'>HXP-2000</h1>
-                    <p className='text-xl text-slate-800'>Made for the professionals with an eye for all the cute things in the world!</p>
+                    <h1 className='text-5xl font-bold my-5 text-purple-800'>
+                        HXP-2000
+                    </h1>
+                    <p className='text-xl text-slate-800'>
+                        Made for the professionals with an eye for all the cute things in the world!
+                    </p>
                     <ul className='ml-7 list-disc'>
                         <li>Large display</li>
                         <li>Function command signs</li>
@@ -32,6 +36,7 @@ const Home = () => {
                 <h1 className='text-3xl'>Customer Reviews</h1>
                 <div className="grid grid-cols-3 gap-5 mx-10 mt-5">
                     {
+                        // shows first three reviews from the reviews.json
                         reviews.slice(0, 3).map(review => <ReviewPost
                             key={review.id}
                             review={review}
