@@ -1,4 +1,14 @@
+import { Link } from "react-router-dom";
+import useReview from "../../hooks/useReview";
+import ReviewPost from "../ReviewPost/ReviewPost";
+
 const Home = () => {
+
+    const [reviews] = useReview();
+
+    const handleShowAllReview = () => {
+        <Link className='p-2 nav-links' to="/reviews">Reviews</Link>
+    }
 
     return (
         <div>
@@ -22,8 +32,13 @@ const Home = () => {
             {/* review section */}
             <div>
                 <h1 className='text-3xl'>Customer Reviews</h1>
-
-                <button className="px-5 py-3 text-white m-4 bg-green-700 rounded-lg	">See all reviews</button>
+                {
+                    reviews.map(review => <ReviewPost
+                        key = {review.id}
+                        review = {review}
+                    ></ReviewPost>)
+                }
+                <button onClick={() => handleShowAllReview} className="px-5 py-3 text-white m-4 bg-green-700 rounded-lg	">See all reviews</button>
             </div>
         </div>
     );
