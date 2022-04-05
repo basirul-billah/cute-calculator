@@ -1,22 +1,30 @@
-import React from 'react';
-
 const Home = () => {
+
     return (
-        <div className='flex justify-evenly'>
-            <div className='p-10 text-left'>
-                <h1 className='text-3xl font-bold my-5'>HXP-2000</h1>
-                <p className='text-lg'>Made for the professionals with an eye for all the cute things in the world!</p>
-                <ul className='ml-7 list-disc'>
-                    <li>Large display</li>
-                    <li>Function command signs</li>
-                    <li>3-digit comma markers</li>
-                    <li>12 digits</li>
-                    <li>Key rollover</li>
-                    <li>Shift key (▶)</li>
-                    <li>Sign Change (＋/－)</li>
-                </ul>
+        <div>
+            {/* banner section */}
+            <div className='flex justify-evenly'>
+                <div className='p-10 text-left'>
+                    <h1 className='text-3xl font-bold my-5'>HXP-2000</h1>
+                    <p className='text-lg'>Made for the professionals with an eye for all the cute things in the world!</p>
+                    <ul className='ml-7 list-disc'>
+                        <li>Large display</li>
+                        <li>Function command signs</li>
+                        <li>3-digit comma markers</li>
+                        <li>12 digits</li>
+                        <li>Key rollover</li>
+                        <li>Shift key (▶)</li>
+                        <li>Sign Change (＋/－)</li>
+                    </ul>
+                </div>
+                <img className='h-3/4' src="https://media.istockphoto.com/photos/yellow-calculator-picture-id1320223302?b=1&k=20&m=1320223302&s=170667a&w=0&h=k7wjCs4uEgr_SLN1mADslczDoQolMf0D-1T8V04TBOU=" alt="" />
             </div>
-            <img className='h-3/4' src="https://media.istockphoto.com/photos/yellow-calculator-picture-id1320223302?b=1&k=20&m=1320223302&s=170667a&w=0&h=k7wjCs4uEgr_SLN1mADslczDoQolMf0D-1T8V04TBOU=" alt="" />
+            {/* review section */}
+            <div>
+                <h1 className='text-3xl'>Customer Reviews</h1>
+
+                <button className="px-5 py-3 text-white m-4 bg-green-700 rounded-lg	">See all reviews</button>
+            </div>
         </div>
     );
 };

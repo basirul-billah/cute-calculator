@@ -1,49 +1,57 @@
 [
     {
+        "id": 1,
         "name": "John Doe",
-        "img": "https://unsplash.com/photos/iEEBWgY_6lA",
+        "img": "https://1.bp.blogspot.com/-xkOa184EX9w/XVhTRa2WRQI/AAAAAAAAb1E/jPDX8jZ8mAIsqqNEDgb8lmfKbttdP1BDACLcBGAs/s1600/Profile-Picture-For-Boys%2B%252812%2529.jpg",
         "comment": "Really ops design, the slop of the calculator is just wrong when laid flat, the display is directed to the ceiling while the lower part is high, bad viewing angle. I want to throw it out of the window!",
         "rating": 2
     },
     {
+        "id": 2,
         "name": "Janifer Lopez",
-        "img": "https://unsplash.com/photos/B4TjXnI0Y2c",
+        "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
         "comment": "Best calculator for ease and functionality. I'm old fashion -- quick and easy. Couldn't find it in the office supply store. Other brands didn't last a month. I keep one in my home office and at my part time job. The best brand.",
         "rating": 5
     },
     {
+        "id": 3,
         "name": "Tommy Umami",
-        "img": "https://unsplash.com/photos/ZHvM3XIOHoE",
-        "comment": "I bought it so I can continue to use my phone without needing to stop what I am doing to open the calculator app, the one button operation to do tax calculations comes in handy and I have found it very simple and quick to use. I have not had an issue with difficulty reading the screen like some other reviews mention, but maybe that is because the height of my desk relative to where I sit makes it work out.",
+        "img": "https://images.unsplash.com/photo-1580059887244-67ae60a8f432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFkJTIwYm95fGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "comment": "I bought it so I can continue to use my phone without needing to stop what I am doing to open the calculator app, the one button operation to do tax calculations comes in handy and I have found it very simple and quick to use.",
         "rating": 4.5
     },
     {
+        "id": 4,
         "name": "Lora Davidson",
-        "img": "https://unsplash.com/photos/B22hPKWDW3k",
-        "comment": "My 10-year-old calculator broke and I was lost, so looked into a new one. I found this product...which had a function or two that used to be on the calculator I had before the broken one and grabbed it to make life even easier. It ends up there are more functions than I need, but everything I need is on it, so I'm happy. Makes figuring prices easier than before and it comes with instructions to help figure what to do with the keys. Some are puzzling, but since I don't need them, I figure that's why I don't care!",
+        "img": "https://pbs.twimg.com/profile_images/1267236116484304899/VfN5YmAu_400x400.jpg",
+        "comment": "My 10-year-old calculator broke and I was lost, so looked into a new one. I found this product...which had a function or two that used to be on the calculator I had before the broken one and grabbed it to make life even easier. It ends up there are more functions than I need, but everything I need is on it, so I'm happy.",
         "rating": 4.5
     },
     {
+        "id": 5,
         "name": "Reoma Atichen",
-        "img": "https://unsplash.com/photos/d2MSDujJl2g",
+        "img": "https://www.swp-berlin.org/assets/swp/people/images/Kipp_David_presse_01.jpg",
         "comment": "A little hard to read because it sits flatter and the reflection of light in the room causes it to be a little tough to read. I added a cushy foam sticky thing to the bottom and it helped. Works great and nice buttons.",
         "rating": 4
     },
     {
+        "id": 6,
         "name": "Jonathan Lay",
-        "img": "https://unsplash.com/photos/n4KewLKFOZw",
+        "img": "https://www.hbs.edu/Style%20Library/api/headshot.aspx?id=6518",
         "comment": "NOT a standard function calculator. There are extra steps to EVERY operation one would want to do, it's unlike both standard calculator and the HP I had in college, counter-intuitive, obnoxious to the point of uselessness.",
         "rating": 1
     },
     {
+        "id": 7,
         "name": "Chris Cornell",
-        "img": "https://unsplash.com/photos/7YVZYZeITc8",
+        "img": "https://m.media-amazon.com/images/M/MV5BZjBmMTY4M2ItMmEwNC00NTUyLWIyZDEtYWNhNjViNjRiOGVlXkEyXkFqcGdeQXVyMTY2MzU0MjA@._V1_.jpg",
         "comment": "It's a calculator. It works. It has some neat tax features which are good for retail folks. I like the button and display size and I really like the tidy Japanese industrial design. Good calculator.",
         "rating": 5
     },
     {
+        "id": 8,
         "name": "Sheila Thompson",
-        "img": "https://unsplash.com/photos/Id6U55AZMpg",
+        "img": "https://cdn.radiofrance.fr/s3/cruiser-production/2021/05/831dd63e-4e8c-4f1c-963f-e779432feec6/1136_sheila000_98w74w.jpg",
         "comment": "After entering the tax rate for your area, it's a one-click operation to figure the tax. Great for super small businesses who don't have a cash register to figure that for them.",
         "rating": 5
     }
